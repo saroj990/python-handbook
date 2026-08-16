@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Python Handbook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css" />
+    <link rel="stylesheet" href="/app/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#/" data-link>
+          <span class="brand-mark">N</span>
+          <span>
+            <strong>Python Handbook</strong>
+            <em>Northside Café edition</em>
+          </span>
+        </a>
+        <label class="search">
+          <span class="sr-only">Search lessons</span>
+          <input id="search" type="search" placeholder="Search lessons…" autocomplete="off" />
+        </label>
+        <nav id="nav"></nav>
+      </aside>
+
+      <div class="main">
+        <header class="topbar">
+          <button class="ghost" id="menu-btn" type="button" aria-label="Open menu">Menu</button>
+          <p class="crumbs" id="crumbs">Home</p>
+          <div class="top-actions">
+            <button class="ghost" id="theme-btn" type="button">Theme</button>
+          </div>
+        </header>
+        <article class="page" id="page"></article>
+        <footer class="pager" id="pager" hidden></footer>
+      </div>
+    </div>
+    <div class="scrim" id="scrim" hidden></div>
+    <script type="module" src="/app/app.js"></script>
+  </body>
+</html>
