@@ -2,8 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Python Handbook</title>
+    <meta name="description" content="A path from first Python script to data science, with drills and the Northside Café lab." />
+    <meta name="theme-color" content="#b5481f" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Handbook" />
+    <link rel="manifest" href="/app/manifest.webmanifest" />
+    <link rel="icon" href="/app/icons/icon-192.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/app/icons/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,6 +44,7 @@
           <button class="ghost" id="menu-btn" type="button" aria-label="Open menu">Menu</button>
           <p class="crumbs" id="crumbs">Home</p>
           <div class="top-actions">
+            <button class="ghost" id="install-btn" type="button" hidden>Install</button>
             <button class="ghost" id="theme-btn" type="button">Theme</button>
           </div>
         </header>

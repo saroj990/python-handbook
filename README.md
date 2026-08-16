@@ -18,6 +18,8 @@ python3 serve.py
 
 That opens [http://127.0.0.1:8000/app/](http://127.0.0.1:8000/app/). Stop with Ctrl-C. Add `--no-browser` if you only want the URL.
 
+After a Vercel deploy (HTTPS), the reader is an installable app. Chrome, Edge, and Android show **Install** in the top bar. On iPhone, tap **Share → Add to Home Screen**. Lessons cache after the first visit so you can keep reading offline.
+
 You still edit drills and café files in Cursor. The app is for reading, ticking boxes, and jumping to the next lesson.
 
 ## Deploy on Vercel

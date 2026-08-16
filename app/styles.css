@@ -151,7 +151,7 @@ a:hover { color: var(--ink); }
   border-bottom: 1px solid var(--line);
 }
 .crumbs { margin: 0; color: var(--muted); font-size: 0.9rem; flex: 1; }
-.top-actions { margin-left: auto; }
+.top-actions { margin-left: auto; display: flex; gap: 0.4rem; }
 .ghost {
   border: 1px solid var(--line);
   background: var(--paper);
@@ -162,6 +162,11 @@ a:hover { color: var(--ink); }
   cursor: pointer;
 }
 #menu-btn { display: none; }
+
+@media (display-mode: standalone) {
+  .topbar { padding-top: max(0.75rem, env(safe-area-inset-top)); }
+  #install-btn { display: none !important; }
+}
 
 .page {
   flex: 1;

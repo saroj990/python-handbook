@@ -10,6 +10,19 @@
   ],
   "headers": [
     {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Service-Worker-Allowed", "value": "/" }
+      ]
+    },
+    {
+      "source": "/app/manifest.webmanifest",
+      "headers": [
+        { "key": "Content-Type", "value": "application/manifest+json; charset=utf-8" }
+      ]
+    },
+    {
       "source": "/:path*.md",
       "headers": [
         { "key": "Content-Type", "value": "text/plain; charset=utf-8" },

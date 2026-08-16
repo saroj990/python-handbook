@@ -264,7 +264,7 @@ async function show(path, hash) {
     }
   } catch (error) {
     pageEl.innerHTML = `<h1>Could not open</h1><p>${error.message}</p>
-      <p class="file-note">Launch the app with <code>python3 serve.py</code> from the handbook folder so files can be fetched.</p>`;
+      <p class="file-note">If you are online, launch with <code>python3 serve.py</code> or wait for the Vercel deploy. If you installed the app, open this lesson once while online so it can be cached.</p>`;
     pagerEl.hidden = true;
   }
 }
@@ -319,3 +319,50 @@ window.addEventListener("keydown", (event) => {
 applyTheme(localStorage.getItem(STORAGE_THEME) || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
 renderNav();
 route();
+
+function isStandalone() {
+  return window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+}
+
+function isIOS() {
+  return /iphone|ipad|ipod/i.test(navigator.userAgent);
+}
+
+const installBtn = document.getElementById("install-btn");
+let deferredPrompt = null;
+
+if (isStandalone()) {
+  document.documentElement.dataset.installed = "true";
+} else if (isIOS()) {
+  installBtn.hidden = false;
+}
+
+window.addEventListener("beforeinstallprompt", (event) => {
+  event.preventDefault();
+  deferredPrompt = event;
+  installBtn.hidden = false;
+});
+
+window.addEventListener("appinstalled", () => {
+  deferredPrompt = null;
+  installBtn.hidden = true;
+});
+
+installBtn.addEventListener("click", async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    installBtn.hidden = true;
+    return;
+  }
+  if (isIOS()) {
+    window.alert("On iPhone or iPad: tap Share, then Add to Home Screen.");
+  }
+});
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch((error) => {
+    console.warn("Service worker not registered", error);
+  });
+}

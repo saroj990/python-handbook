@@ -14,6 +14,13 @@ ROOT = Path(__file__).resolve().parent
 
 
 class HandbookHandler(SimpleHTTPRequestHandler):
+    extensions_map = {
+        **SimpleHTTPRequestHandler.extensions_map,
+        ".webmanifest": "application/manifest+json",
+        ".md": "text/plain",
+        ".js": "text/javascript",
+    }
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
@@ -21,7 +28,11 @@ class HandbookHandler(SimpleHTTPRequestHandler):
         sys.stderr.write("  " + format % args + "\n")
 
     def end_headers(self):
-        self.send_header("Cache-Control", "no-store")
+        if self.path.split("?", 1)[0] == "/sw.js":
+            self.send_header("Cache-Control", "no-cache")
+            self.send_header("Service-Worker-Allowed", "/")
+        else:
+            self.send_header("Cache-Control", "no-store")
         super().end_headers()
 
 
