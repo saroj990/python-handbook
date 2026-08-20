@@ -13,6 +13,8 @@ export const sections = [
       { path: "01-basics/06-control-flow.md", title: "Control flow", minutes: 30 },
       { path: "01-basics/07-functions.md", title: "Functions", minutes: 35 },
       { path: "01-basics/08-modules-and-files.md", title: "Modules and files", minutes: 30 },
+      { path: "01-basics/09-hands-on.md", title: "Hands-on examples", minutes: 40 },
+      { path: "01-basics/10-practice.md", title: "Practice questions", minutes: 40 },
     ],
   },
   {

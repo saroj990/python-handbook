@@ -20,6 +20,8 @@ Tick a box when the checker is green or the lab step runs. This file is yours ‚Ä
 - [ ] Drill `01_clamp` and `05_word_count`
 - [ ] Debug `03_mutable_default`
 - [ ] Lesson 08 Modules and files
+- [ ] Hands-on examples (10)
+- [ ] Practice questions (10)
 - [ ] Caf√© Shift 1
 - [ ] Quiz: basics
 

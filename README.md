@@ -94,6 +94,8 @@ If you only have fifteen minutes, do a [debug puzzle](practice/debug/). They are
 | [Control flow](01-basics/06-control-flow.md) | A `while` order loop | [`04_fizzbuzz`](practice/basics/04_fizzbuzz.py) |
 | [Functions](01-basics/07-functions.md) | Reusable `subtotal` | [`01_clamp`](practice/basics/01_clamp.py), [`05_word_count`](practice/basics/05_word_count.py) |
 | [Modules and files](01-basics/08-modules-and-files.md) | `orders.json` | — |
+| [Hands-on examples](01-basics/09-hands-on.md) | 10 typed programs | — |
+| [Practice questions](01-basics/10-practice.md) | 10 problems | spoilers in-page |
 
 Then: [Café Shift 1](labs/northside-cafe/README.md#shift-1--open-the-shop-basics) · [Quiz](quizzes/01-basics.md)
 
