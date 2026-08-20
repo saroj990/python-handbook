@@ -110,6 +110,8 @@ Then: [Café Shift 1](labs/northside-cafe/README.md#shift-1--open-the-shop-basic
 | [Decorators and context managers](02-intermediate/05-decorators-and-context-managers.md) | Time the close-out | — |
 | [Functional tools](02-intermediate/06-functional-tools.md) | Bestsellers with `Counter` | — |
 | [Datetime and regex](02-intermediate/07-datetime-and-regex.md) | Morning-rush count | [`04_parse_date`](practice/intermediate/04_parse_date.py) |
+| [Hands-on examples](02-intermediate/08-hands-on.md) | 10 typed programs | — |
+| [Practice questions](02-intermediate/09-practice.md) | 10 problems | spoilers in-page |
 
 Then: [Café Shift 2](labs/northside-cafe/README.md#shift-2--run-the-floor-intermediate) · [Quiz](quizzes/02-intermediate.md)
 

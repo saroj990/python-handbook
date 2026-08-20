@@ -1,4 +1,4 @@
-const VERSION = "handbook-v2";
+const VERSION = "handbook-v3";
 
 const SHELL = [
   "/app/",
@@ -35,6 +35,8 @@ const LESSONS = [
   "/02-intermediate/05-decorators-and-context-managers.md",
   "/02-intermediate/06-functional-tools.md",
   "/02-intermediate/07-datetime-and-regex.md",
+  "/02-intermediate/08-hands-on.md",
+  "/02-intermediate/09-practice.md",
   "/03-advanced/README.md",
   "/03-advanced/01-type-hints.md",
   "/03-advanced/02-dataclasses.md",

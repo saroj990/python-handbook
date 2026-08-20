@@ -34,6 +34,8 @@ Tick a box when the checker is green or the lab step runs. This file is yours ‚Ä
 - [ ] Decorators and context managers
 - [ ] Functional tools
 - [ ] Datetime and regex + drill `04_parse_date`
+- [ ] Hands-on examples (10)
+- [ ] Practice questions (10)
 - [ ] Caf√© Shift 2
 - [ ] Quiz: intermediate
 

@@ -30,6 +30,8 @@ export const sections = [
       { path: "02-intermediate/05-decorators-and-context-managers.md", title: "Decorators and context managers", minutes: 35 },
       { path: "02-intermediate/06-functional-tools.md", title: "Functional tools", minutes: 30 },
       { path: "02-intermediate/07-datetime-and-regex.md", title: "Datetime and regex", minutes: 35 },
+      { path: "02-intermediate/08-hands-on.md", title: "Hands-on examples", minutes: 40 },
+      { path: "02-intermediate/09-practice.md", title: "Practice questions", minutes: 40 },
     ],
   },
   {
