@@ -139,6 +139,8 @@ Then: [Café Shift 3](labs/northside-cafe/README.md#shift-3--tighten-the-system-
 | [Visualization](04-data-science/03-visualization.md) | A two-panel plot Ada can pin up | — |
 | [SciPy and statistics](04-data-science/04-scipy-and-stats.md) | A test and a baseline model | — |
 | [End-to-end project](04-data-science/05-end-to-end-project.md) | Five sentences in `answer.md` | — |
+| [Hands-on examples](04-data-science/06-hands-on.md) | 10 typed programs | NumPy / pandas |
+| [Practice questions](04-data-science/07-practice.md) | 10 problems | spoilers in-page |
 
 Then: [Café Shift 4](labs/northside-cafe/README.md#shift-4--read-the-books-data-science) · [Quiz](quizzes/04-data-science.md)
 

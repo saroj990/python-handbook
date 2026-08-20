@@ -59,5 +59,7 @@ Tick a box when the checker is green or the lab step runs. This file is yours ‚Ä
 - [ ] Visualization
 - [ ] SciPy and statistics
 - [ ] End-to-end project
+- [ ] Hands-on examples (10)
+- [ ] Practice questions (10)
 - [ ] Caf√© Shift 4 + `answer.md`
 - [ ] Quiz: data science

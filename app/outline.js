@@ -61,6 +61,8 @@ export const sections = [
       { path: "04-data-science/03-visualization.md", title: "Visualization", minutes: 40 },
       { path: "04-data-science/04-scipy-and-stats.md", title: "SciPy and statistics", minutes: 45 },
       { path: "04-data-science/05-end-to-end-project.md", title: "End-to-end project", minutes: 60 },
+      { path: "04-data-science/06-hands-on.md", title: "Hands-on examples", minutes: 45 },
+      { path: "04-data-science/07-practice.md", title: "Practice questions", minutes: 40 },
     ],
   },
 ];

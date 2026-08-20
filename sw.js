@@ -1,4 +1,4 @@
-const VERSION = "handbook-v4";
+const VERSION = "handbook-v5";
 
 const SHELL = [
   "/app/",
@@ -52,6 +52,8 @@ const LESSONS = [
   "/04-data-science/03-visualization.md",
   "/04-data-science/04-scipy-and-stats.md",
   "/04-data-science/05-end-to-end-project.md",
+  "/04-data-science/06-hands-on.md",
+  "/04-data-science/07-practice.md",
   "/labs/README.md",
   "/labs/northside-cafe/README.md",
   "/practice/README.md",
