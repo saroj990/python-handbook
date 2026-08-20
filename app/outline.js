@@ -46,6 +46,8 @@ export const sections = [
       { path: "03-advanced/04-testing.md", title: "Testing", minutes: 35 },
       { path: "03-advanced/05-performance-and-internals.md", title: "Performance and internals", minutes: 30 },
       { path: "03-advanced/06-packaging-and-tooling.md", title: "Packaging and tooling", minutes: 30 },
+      { path: "03-advanced/07-hands-on.md", title: "Hands-on examples", minutes: 40 },
+      { path: "03-advanced/08-practice.md", title: "Practice questions", minutes: 40 },
     ],
   },
   {

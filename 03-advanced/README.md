@@ -10,11 +10,13 @@
 | 4 | [Testing](04-testing.md) | 35 min | [café `test_order.py`](../labs/northside-cafe/starters/test_order.py) |
 | 5 | [Performance and internals](05-performance-and-internals.md) | 30 min | Time `Counter` vs a loop |
 | 6 | [Packaging and tooling](06-packaging-and-tooling.md) | 30 min | `src/` layout |
+| 7 | [Hands-on examples](07-hands-on.md) | 40 min | 10 typed programs |
+| 8 | [Practice questions](08-practice.md) | 40 min | 10 problems with spoilers |
 
 ```bash
 python3 practice/check.py advanced
 ```
 
-Then: [Café Shift 3](../labs/northside-cafe/README.md#shift-3--tighten-the-system-advanced) · [Quiz](../quizzes/03-advanced.md)
+Then: [hands-on](07-hands-on.md), [practice](08-practice.md), [Café Shift 3](../labs/northside-cafe/README.md#shift-3--tighten-the-system-advanced) · [Quiz](../quizzes/03-advanced.md)
 
 Next section: [Data Science](../04-data-science/).

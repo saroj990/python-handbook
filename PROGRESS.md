@@ -47,6 +47,8 @@ Tick a box when the checker is green or the lab step runs. This file is yours �
 - [ ] Testing + café `test_order.py`
 - [ ] Performance
 - [ ] Packaging
+- [ ] Hands-on examples (10)
+- [ ] Practice questions (10)
 - [ ] Café Shift 3
 - [ ] Quiz: advanced
 

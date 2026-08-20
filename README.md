@@ -125,6 +125,8 @@ Then: [Café Shift 2](labs/northside-cafe/README.md#shift-2--run-the-floor-inter
 | [Testing](03-advanced/04-testing.md) | `pytest` on `Order` | [café tests](labs/northside-cafe/starters/test_order.py) |
 | [Performance](03-advanced/05-performance-and-internals.md) | Time `Counter` vs a loop | — |
 | [Packaging](03-advanced/06-packaging-and-tooling.md) | An installable project layout | — |
+| [Hands-on examples](03-advanced/07-hands-on.md) | 10 typed programs | — |
+| [Practice questions](03-advanced/08-practice.md) | 10 problems | spoilers in-page |
 
 Then: [Café Shift 3](labs/northside-cafe/README.md#shift-3--tighten-the-system-advanced) · [Quiz](quizzes/03-advanced.md)
 
